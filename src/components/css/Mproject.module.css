@@ -1,0 +1,95 @@
+
+.mainDiv{
+  height: 90vh;
+  width: 80vw;
+
+
+  background-color: #182249;
+  z-index: 50;
+  border-radius: 12px;
+}
+.outDiv{
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+  position: relative;
+  left: 7%;
+}
+.projects{
+  display: flex;
+}
+.ideaDiv{
+  width: 20vw;
+  height: 20vw;
+  position: absolute;
+  top:30%;
+  margin-left: 10px;
+  background-image: url("../../img/ideabank.png");
+  
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ComputerDiv{
+  width: 20vw;
+  height: 20vw;
+  position: absolute;
+  top:30%;
+  left: 40%;
+  background-image: url("../../img/podol.png");
+  
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.AdviceDiv{
+  width: 20vw;
+  height: 20vw;
+  position: absolute;
+  top:30%;
+  right: 10%;
+  margin-right: 10px;
+  background-image: url("../../img/gbsw_JQ.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.AdviceDivLi{
+  width: 20vw;
+  height: 20vw;
+  margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0.632);
+  z-index: 10;
+}
+
+@media (max-width: 1100px) {
+  .outDiv{
+    left: 0px;
+    padding-top: 4%;
+  }
+  .mainDiv{
+    width: 70vw;
+  }
+  .AdviceDiv{
+    right: 15%;
+  }
+}
+@media (max-width: 920px) {
+  .outDiv{
+    padding-top: 6%;
+  }
+   
+   }
+   @media (max-width: 630px) {
+    .outDiv{
+      padding-top: 7%;
+    }
+  }
+    @media (max-width: 500px) {
+      .outDiv{
+        padding-top: 8%;
+      }
+     
+     }

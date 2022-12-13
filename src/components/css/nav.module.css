@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@font-face{
+  font-family: "Anurati-Reular";
+  src: url("../../font/ANURATI\ Free\ Font/Anurati-Regular.otf");
+}
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.NavMain{
+  z-index: 1;
+  background-color: #182249;
+  width: 200px;
+  height: 80vh;
+  border: 3px solid black;
+  position: absolute;
+  top: 65px;
+  left: 10px;
+  border-radius: 12px;
+  
+}
+a{
+  text-decoration: none;
+}
+.DivLogo{
+  margin: auto;
+}
+.Logo{
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 800;
+  color: gold;
+  font-family: 'Lora', serif;
+}
+ol{
+  padding-right: 40px;
+}
+li{
+  margin: 13px 0;
+}
+li a{
+  padding: 5px;
+  color: gold;
+  transition: 0.3s;
+}
+li a label{
+  cursor: pointer;
+}
+
+li a:hover{
+  background-color: gold;
+  color: #182249;
+}
+li::marker{
+  color: gold ;
+}
+li a:active{
+  
+  background-color: #182249;
+  color: gold;
+}
+.headLine{
+  margin-top: 5px;
+  border-top: 1px solid gold;
+}
+/* font-family: 'Lora', serif; */
+
+@media (max-width: 1100px) {
+  .NavMain {
+    display: none;
+  }
+}

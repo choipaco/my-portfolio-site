@@ -1,0 +1,74 @@
+.mainDiv{
+  height: 90vh;
+  width: 80vw;
+  border: 1px solid black;
+
+  background-color: rgb(255, 255, 255);
+  z-index: 50;
+  border-radius: 12px;
+  background-image: url("../../img/main2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:  top;
+}
+
+.CHANMIN{
+  color: orange;
+}
+.outDiv{
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+  position: relative;
+  left: 7%;
+}
+h1{
+  margin: 0;
+  color: white;
+  font-size: 60px;
+  padding: 7%;
+}
+.backImg{
+  width: 100%;
+  height: 100%;
+  z-index: 51;
+  border-radius: 12px;
+  background-color: rgba(120, 120, 120, 0.616);
+}
+@media (max-width: 660px) {
+  h1 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 550px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 1100px) {
+  .outDiv{
+    left: 0px;
+    padding-top: 4%;
+  }
+  .mainDiv{
+    width: 70vw;
+  }
+}
+@media (max-width: 750px) {
+  .outDiv{
+    padding-top: 6%;
+  }
+   
+   }
+   @media (max-width: 630px) {
+    .outDiv{
+      padding-top: 7%;
+    }
+  }
+    @media (max-width: 500px) {
+      .outDiv{
+        padding-top: 8%;
+      }
+     
+     }

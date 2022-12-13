@@ -1,0 +1,207 @@
+
+.mainDiv{
+  height: 90vh;
+  width: 80vw;
+
+
+  background-color: #182249;
+  z-index: 50;
+  border-radius: 12px;
+}
+.outDiv{
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+  position: relative;
+  left: 7%;
+}
+.learn{
+  width: 20vw;
+  height: 55vh;
+  border: 2px solid gold;
+  border-radius: 12px;
+
+  position: absolute;
+  top: 20%;
+  left: 20%;
+
+}
+.learn legend{
+  color: gold;
+  font-weight: 550;
+  text-align: center;
+}
+.skillSet{
+  width: 20vw;
+  height: 55vh;
+  border: 2px solid gold;
+  border-radius: 12px;
+
+  position: absolute;
+  top: 20%;
+  right: 20%;
+}
+.skillSet legend{
+  color: gold;
+  font-weight: 550;
+  text-align: center;
+}
+.skillBox{
+
+  margin-left: 4vw;
+  margin-top: 10px;
+  width: 200px;
+  height: 80px;
+  background-color: white;
+  border-radius: 12px;
+}
+.skillFlex{
+  display: flex;
+  position: relative;
+  left: 10%;
+}
+.skillFlex label{
+  position: relative;
+  top: 20px;
+  font-size: 12px;
+  font-weight: 550;
+  margin-left: 10px;
+}
+.skillFlexJava{
+  display: flex;
+  position: relative;
+  bottom: 20%;
+}
+.skillFlexJava label{
+  position: relative;
+  top: 40px;
+  font-size: 12px;
+  font-weight: 550;
+}
+.html{
+  font-size: 60px;
+  color: rgb(255, 119, 0);
+}
+.css{
+  font-size: 60px;
+  color: rgb(0, 132, 255);
+}
+.js{
+  margin-top: 10px;
+  width: 60px;  
+  height: 60px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.react{
+  font-size: 60px;
+  color: rgb(0, 195, 255);
+}
+.nodejs{
+  color: #00c800;
+  width: 90px;
+  height: 60px;
+  background-image: url(https://hanamon.kr/wp-content/uploads/2021/01/%EB%85%B8%EB%93%9C.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.C_Len{
+  width: 60px;
+  height: 70px;
+  background-image: url(../../img/C.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.JavaLen{
+  margin-top: 10px;
+  width: 90px;
+  height: 90px;
+  background-image: url(../../img/java.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media (max-width: 1100px) {
+  .outDiv{
+    left: 0px;
+    padding-top: 4%;
+  }
+  .mainDiv{
+    width: 70vw;
+  }
+}
+
+@media (max-width: 750px) {
+  .outDiv{
+    padding-top: 6%;
+  }
+  .skillBox{
+    margin-left: 0px;
+    margin-top: 2px;
+  }
+  .skillSet{
+    top: 45%;
+    left: 25%;
+    height: 250px;
+  }
+.skillFlex label{
+  font-size: 10px;
+} 
+.skillFlexJava label{
+  font-size: 10px;
+}
+.skillFlexJava {
+  left: 5%;
+}
+  .learn{
+    height: 200px;
+    top: 10%;
+    left: 25%;
+  }
+  .skillBox{
+    width: 200px;
+    height: 50px;
+  }
+  .JavaLen{
+    width: 50px;
+    height: 50px;
+  }
+  .html{
+    font-size: 40px;
+  }
+  .css{
+    font-size: 40px;
+  }
+  .react{
+    font-size: 40px;
+  }
+  .js{
+    width: 30px;
+    height: 30px;
+  }
+  .nodejs{
+    width: 45px;
+    height: 30px;
+    position: relative;
+    top: 7px;
+  }
+  .C_Len{
+    position: relative;
+    top: 6px;
+    
+    width: 30px;
+    height: 35px;
+  }
+   }
+   @media (max-width: 630px) {
+    .outDiv{
+      padding-top: 7%;
+    }
+  }
+    @media (max-width: 500px) {
+      .outDiv{
+        padding-top: 8%;
+      }
+     
+     }

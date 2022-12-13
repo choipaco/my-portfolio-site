@@ -1,0 +1,192 @@
+
+.mainDiv{
+  height: 90vh;
+  width: 80vw;
+  background-color: #182249;
+  z-index: 50;
+  border-radius: 12px;
+
+}
+.outDiv{
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+  position: relative;
+  left: 7%;
+  overflow: hidden;
+}
+.profileImg{
+  margin-top: 20px;
+  display: flex;
+  height: 300px;
+  width: 100%;
+}
+.humanImg{
+  border: 3px solid black;
+  border-radius: 12px;
+  display: inline-block;
+  margin: 1%;
+
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-image: url("../../img/사람.png");
+  background-position: top;
+}
+.Self{
+  top: 20%;
+  position: relative;
+  height: 50%;
+  left: 2rem;
+  display: inline-block; 
+  padding: 0 1%;
+}
+.Self table{
+
+  font-weight: 550;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 12px;
+}
+.IconMain{
+  margin-left: 6%;
+  margin-top: 100px;
+}
+.IconCom{
+  position: relative;
+  top: 10px;
+}
+.Icon{
+  width: 200px;
+  height: 75px;
+  margin: 10px 10px;
+  display: inline-block;
+  background-color: white;
+  padding: 5px 2%;
+  border-radius: 12px;
+  font-weight: 550;
+}
+.Icon svg{
+
+  font-size: 2rem;
+}
+.Icon svg path{
+  margin-top: 10px;
+}
+.Icon .phone{
+  color: green;
+}
+.Icon .github{
+  color: black;
+}
+.Icon .github:active{
+  color: gray;
+}
+.Icon .gmail{
+  color: black;
+}
+.Icon .gmail:active{
+  color: gray;
+}
+.Icon .discordColor{
+  color: #7289da;
+}
+.Icon .discordText{
+  color: black;
+}
+.tellImg{
+  display: none;
+  width: 200px;
+  height: 200px;
+  margin: 1%;
+  border-radius: 12px;
+  border: 3px solid black;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-image: url(../../img/코드.png);
+  background-size: cover;
+}
+
+@media (max-width: 1228px) {
+
+   .Self{
+
+    font-size: 12px;
+  }
+  .humanImg{
+    width: 200px;
+    height: 200px;
+  }
+  .IconCom{
+    display: block;
+    margin-top: 20px;
+  }
+  
+  }
+
+
+@media (max-width: 844px) {
+  .profileImg {
+    height: 310px;
+  }
+  .Self{
+
+    font-size: 5px;
+  }
+  .Self table{
+    position: relative;
+    right: 30px;
+    top: 60px;
+  }
+  .IconMain{
+    margin-top: 0;
+  }
+}
+@media (max-width: 1100px) {
+  .outDiv{
+    left: 0px;
+    padding-top: 4%;
+  }
+  .mainDiv{
+    width: 70vw;
+  }
+}
+@media (max-width: 750px) {
+  .Icon{
+    font-weight: normal;
+  }
+  .Self{
+    top: -20%;
+  }
+.outDiv{
+  padding-top: 6%;
+}
+.humanImg{
+  width: 150px;
+  height: 150px;
+}
+.Self table{
+  z-index: 10;    
+}
+.profileImg {
+  height: 200px;
+}
+.IconMain{
+  margin-left: 0;
+}
+ }
+ @media (max-width: 630px) {
+
+
+  .outDiv{
+    padding-top: 7%;
+  }
+}
+  @media (max-width: 500px) {
+    .outDiv{
+      padding-top: 8%;
+    }
+    
+   }

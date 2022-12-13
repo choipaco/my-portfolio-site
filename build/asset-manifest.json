@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fc16ed5d.css",
+    "main.js": "/static/js/main.9fd1b3e1.js",
+    "static/media/코드.png": "/static/media/코드.44d7cbe06980f690c90d.png",
+    "static/media/gbsw_JQ.png": "/static/media/gbsw_JQ.22173aeed52bc02fbdda.png",
+    "static/media/ideabank.png": "/static/media/ideabank.cb2ec2c099d3bfb41a52.png",
+    "static/media/사람.png": "/static/media/사람.16f9386f63b3f325df70.png",
+    "static/media/main2.jpg": "/static/media/main2.40538a1d2236f0224bd9.jpg",
+    "static/media/podol.png": "/static/media/podol.8ac4e47803043ecf4c5c.png",
+    "static/media/C.png": "/static/media/C.a2d6bd23046503bfcf4e.png",
+    "static/media/java.png": "/static/media/java.63b31c9fcf5d2346d810.png",
+    "static/media/Anurati-Regular.otf": "/static/media/Anurati-Regular.ada0eaa4927bd5989165.otf",
+    "index.html": "/index.html",
+    "main.fc16ed5d.css.map": "/static/css/main.fc16ed5d.css.map",
+    "main.9fd1b3e1.js.map": "/static/js/main.9fd1b3e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc16ed5d.css",
+    "static/js/main.9fd1b3e1.js"
+  ]
+}
